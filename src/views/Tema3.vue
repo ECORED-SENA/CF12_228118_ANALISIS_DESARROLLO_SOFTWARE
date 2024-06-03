@@ -90,6 +90,57 @@
             img(src="@/assets/curso/temas/img-titulo-dec.svg")
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Diseño de la estructura de la interfaz
+    
+    .fondo-color-sistema-k.p-4.borde-13.mb-5
+      .row
+        .col-md-auto 
+          figure.mb-4.mb-lg-0
+            img.mx-auto(src="@/assets/curso/temas/29.svg",style="max-width: 73px;")
+        .col 
+          p.mb-0 Esta herramienta permite generar de manera estructural las vistas de la aplicación. Es decir, se describe en palabras cuántas vistas son necesarias y cuántos objetos de interacción se requieren. En decir, proporciona una propuesta de la estructura de la interfaz de la aplicación. Esta actividad se suele realizar tradicionalmente con lápiz y papel. Sin embargo, con Balsamiq, esta tarea se puede llevar a cabo sin dificultad, como se presenta a continuación:
+
+    .fondo-personalizado-4.pos-1.mb-5
+      .fondo-personalizado-4__contenido.pb-4
+        .row.justify-content-center.pt-5
+          .col-lg-8
+            .titulo-sexto.color-acento-contenido.mb-5
+              p.mb-0 #[b Figura 1.] Diseño de la estructura de la interfaz
+            
+            figure.mb-4.mb-lg-0
+              img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/30.svg",style="max-width: 820px;",alt="Descripción de las observaciones de las vistas en el diseño de la estructura de la interfaz.")
+              img.mx-auto.d-lg-none(src="@/assets/curso/temas/33.svg",style="max-width: 448px;",alt="Descripción de las observaciones de las vistas en el diseño de la estructura de la interfaz.")
+        
+        .cont-titulo-decorativo.p-2.mt-5
+          .row
+            .col-auto.pe-0
+              figure
+                img(src="@/assets/curso/temas/img-titulo-dec.svg")
+            .col.align-self-end
+              h3.mt-3.mb-0.me-2 Creación de las vistas del sistema
+    
+    .row.mb-5
+      .col-lg-7
+        p.mb-0 Para este componente formativo, el caso de estudio es un servicio básico de publicación de #[em posts], que consta de dos vistas en la aplicación. Se ha diseñado la aplicación web de forma que sea #[em responsive], tomando como plataforma un dispositivo móvil (tableta). La barra de herramientas de Balsamiq proporciona todo lo necesario para esta primera tarea. En la sección de material de apoyo, se adjunta un video que destaca las ventajas de esta herramienta. A continuación, se presentan las vistas de la aplicación: 
+      .col-lg-5.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/32.png",style="max-width: 505px;")
+    
+    .fondo-personalizado-4.pos-2
+      .fondo-personalizado-4__contenido
+        .row.justify-content-center 
+          .col-lg-10.pb-5
+            .titulo-sexto.color-acento-contenido.mb-5
+              p.mb-0 #[b Figura 2.] Creación de las vistas del sistema
+            .row.pt-3.pb-5
+              .col-lg-7
+                figure.mb-4.mb-lg-0
+                  img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 610px;",alt="Vistas de la aplicación Balsamiq, en la creación de las vistas del sistema.")
+              .col-lg-5
+                p.mb-4 Para este caso, se crean dos vistas. La primera es un formulario que consta de tres (3) objetos de interacción. El primero es una caja de texto donde se introduce el título, el segundo es un área de texto para describir el contenido del post, y por último, un botón que envía estos datos a una segunda vista. Desde Balsamiq, se puede generar esta interacción para facilitar la navegación entre vistas, revisando las opciones del objeto #[em 'button'].
+                p.mb-0 Por otro lado, la segunda vista muestra de manera ordenada la lista de #[em posts] publicados por el usuario, con el formato detallado en la ilustración adjunta. Es importante resaltar que la fecha debe ser tomada automáticamente por el sistema al momento de la publicación.
+
+
+    
 
 </template>
 

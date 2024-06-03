@@ -64,6 +64,8 @@
 //colores
 .color-sistema-l
   color: $color-sistema-l !important
+.col-color-primario
+  color: $color-primario !important
 .color-acento-contenido,span.color-acento-contenido
   color: $color-acento-contenido !important
 
@@ -80,10 +82,10 @@
   background-color: $color-sistema-l !important
 .fondo-color-sistema-m
   background-color: $color-sistema-m !important
-//.fondo-color-sistema-n
-//  background-color: $color-sistema-n !important
-//.fondo-color-sistema-o
-//  background-color: $color-sistema-o !important
+.fondo-color-sistema-n
+  background-color: $color-sistema-n !important
+.fondo-color-sistema-o
+  background-color: $color-sistema-o !important
 //.fondo-color-sistema-p
 //  background-color: $color-sistema-p !important
 //.fondo-color-sistema-q
@@ -109,6 +111,8 @@
 //    border-radius: 10px !important
 .borde-12
   border-radius: 12px !important
+.borde-13
+  border-radius: 13px !important
 .borde-14
   border-radius: 14px !important
 .borde-16
@@ -163,6 +167,63 @@
 .fondo-personalizado-3
   background: rgb(119,55,240)
   background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+
+.fondo-personalizado-4
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/31.png)
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    @media screen and (max-width: $bp-max-md)
+      background-size: cover
+
+    background-position: center
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 95px
+  &.pos-2
+    &:before
+      top: 60px
+
+.fondo-personalizado-5
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/43.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: top
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 36px
+  &.pos-3
+    &:before
+      top: 45px
+  &.pos-2
+    &:before
+      bottom: 50px
+
+.fondo-personalizado-6
+  background: rgb(146,41,238)
+  background: linear-gradient(180deg, rgba(146,41,238,1) 0%, rgba(98,17,170,1) 27%, rgba(52,9,90,1) 100%)
+
 
 //tarjetas
 .tarjeta-img-1
@@ -279,3 +340,11 @@
   -webkit-box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
   -moz-box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
   box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+
+//listas
+.lista-personalizada-1
+  li
+    display: flex
+  &.espacio-1
+    li
+      margin-bottom: 4px
