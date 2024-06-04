@@ -86,10 +86,10 @@
   background-color: $color-sistema-n !important
 .fondo-color-sistema-o
   background-color: $color-sistema-o !important
-//.fondo-color-sistema-p
-//  background-color: $color-sistema-p !important
-//.fondo-color-sistema-q
-//  background-color: $color-sistema-q !important
+.fondo-color-sistema-p
+  background-color: $color-sistema-p !important
+.fondo-color-sistema-q
+  background-color: $color-sistema-q !important
 .fondo-color-primario
   background-color: $color-primario !important
 .fondo-color-acento-contenido
@@ -224,6 +224,23 @@
   background: rgb(146,41,238)
   background: linear-gradient(180deg, rgba(146,41,238,1) 0%, rgba(98,17,170,1) 27%, rgba(52,9,90,1) 100%)
 
+.fondo-personalizado-7
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/75.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: top
+  &__contenido
+    position: relative
+
 
 //tarjetas
 .tarjeta-img-1
@@ -237,6 +254,14 @@
     text-align: center
     p
       margin-bottom: 0
+
+.tarjeta-personalizada-1
+  border-radius: 10px
+  cursor: pointer
+  background-color: $color-sistema-p
+  &:hover
+    background-color: $color-primario
+  transition: background-color .3s
 
 //slyders personalizados
 .slider-personalizado-1
@@ -348,3 +373,24 @@
   &.espacio-1
     li
       margin-bottom: 4px
+
+//acordiones
+.acordion-personalizado-1
+  &__tarjeta
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.7rem !important
+    border-radius: 10px
+    background-color: $color-primario
+    .acordion__titulo
+      h3
+        color: white !important
+    &.acordion__activo
+      background-color: $color-sistema-q
+      .acordion__titulo
+        h3
+          color: $color-sistema-texto !important
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones !important

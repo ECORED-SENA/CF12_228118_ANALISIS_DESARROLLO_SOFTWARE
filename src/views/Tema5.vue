@@ -144,6 +144,27 @@
     
     p.mb-5 Las reglas de negocio pueden llegar a ser tan complejas como las operaciones del cliente. En situaciones de esta índole, se sugiere el uso de artefactos como los casos de uso para definir con detalle la especificación del sistema. Para guiar el proceso, se proponen algunos artefactos a elaborar:
 
+    .row.justify-content-center.mb-2
+      .col-lg-5.mb-4
+        .tarjeta-personalizada-1.p-5.h-100
+          .burbuja-1.fondo-color-acento-contenido.me-auto.mb-2
+            figure
+              img.mx-auto(src="@/assets/curso/temas/60.svg",style="max-width: 67px;")
+          br
+          h3.mb-4.fondo-color-acento-contenido.d-inline-block.px-2.pt-1 Documento de especificación de requisitos
+          p.mb-3.text-white Este documento permite identificar el objetivo general de cada requerimiento sin abordar demasiados detalles técnicos ni de reglas de negocio que se presenten en la operación. Es una base para la estimación de costos y tiempos de desarrollo.
+      .col-lg-5.mb-4
+        .tarjeta-personalizada-1.p-5.h-100
+          .burbuja-1.fondo-color-acento-contenido.me-auto.mb-2
+            figure
+              img.mx-auto(src="@/assets/curso/temas/61.svg",style="max-width: 66px;")
+          br
+          h3.mb-4.fondo-color-acento-contenido.d-inline-block.px-2.pt-1 Plantilla de casos de uso
+          p.mb-3.text-white Algunos de los requerimientos especificados en el documento de especificación de requisitos pueden necesitar un nivel de detalle técnico superior, especialmente al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares donde intervienen reglas de negocio.
+    
+    p.mb-0 Como se puede identificar, los requerimientos de una aplicación móvil suelen estar cubiertos por técnicas como la elaboración de historias de usuario. No obstante, cuando la aplicación móvil forma parte de un ecosistema tecnológico más complejo, el proceso requiere de algún artefacto que facilite la identificación y validación de los requisitos.
+
+
     
 
 
