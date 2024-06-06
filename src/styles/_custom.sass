@@ -28,6 +28,10 @@
     margin-left: -3rem !important
     margin-right: -3rem !important
 
+.mt-lg-n5
+  @media (min-width: $bp-min-lg)
+    margin-top: -3rem !important
+
 .mx-n4
   margin-left: -1.5rem 
   margin-right: -1.5rem
@@ -127,6 +131,8 @@
   border-radius: 20px !important
 .borde-23
   border-radius: 23px !important
+.borde-24
+  border-radius: 24px !important
 
 //fondos personalizados
 .fondo-personalizado-1
@@ -197,6 +203,9 @@
   &.pos-2
     &:before
       top: 60px
+  &.pos-3
+    &:before
+      top: 15px
 
 .fondo-personalizado-5
   position: relative
@@ -281,6 +290,23 @@
     bottom: 0
     right: 0
     transform: translateY(38%) translateX(25%)
+
+.fondo-personalizado-10
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/109.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: top
+  &__contenido
+    position: relative
 
 
 //tarjetas
@@ -444,6 +470,11 @@
     &--active
       background-color: $color-sistema-s !important
 
+.tab-a-personalizado-1
+  .tabs-a__tab
+    background-color: $color-primario
+    color: white
+
 //pasos
 .pasos-personalizado-1
   .pasos-b__header
@@ -487,4 +518,46 @@
     &:hover
       border-color: #cccccc
 
-      
+.pasos-personalizado-a-1
+  .pasos-a__circle
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    &:before
+      content: ""
+      background-color: $color-primario
+      width: 28px
+      height: 28px
+      display: flex
+      position: absolute
+      z-index: 1
+      border-radius: 50%
+    &:after
+      content: ""
+      background-color: white
+      width: 12px
+      height: 12px
+      display: flex
+      position: absolute
+      z-index: 3
+      border-radius: 50%
+    width: 50px
+    height: 50px
+    .h2
+      background-color: white
+      display: flex
+      height: 39px
+      width: 39px
+      border-radius: 50%
+      font-size: 0
+
+        
+
+
+//imagen infografica
+.imagen-infografica-personalizada-1
+  .img-infografica__item, .img-infografica-b__item
+    width: 4%
+    @media screen and (max-width: $bp-max-md)
+      width: 9%
