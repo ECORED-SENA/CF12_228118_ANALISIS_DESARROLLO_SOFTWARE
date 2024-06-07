@@ -2,20 +2,20 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-left")
       .titulo-principal__numero
         span 6
       h1 Diseño gráfico: herramientas de prototipado
 
     .row.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         .fondo-color-sistema-k.borde-13.p-4.pb-3
           p.mb-0 Un diseñador #[em front-end] necesita contar con herramientas esenciales para realizar su labor, y el primer paso suele ser el desarrollo de una propuesta de interfaz gráfica o un prototipo de interfaz de usuario (UI) que permita al cliente visualizar cómo se verá el sistema una vez finalizado. Hoy en día, no basta con diseñar únicamente la versión para ordenadores de escritorio o el prototipo para móviles. Es necesario crear tres versiones distintas para escritorio, #[em tablet] y móvil, asegurando que el producto digital mantenga o adapte ciertas propiedades visuales de acuerdo al dispositivo en el que se utiliza. A continuación, se presentan algunas herramientas recomendadas para dicho propósito.
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/62.png",style="max-width: 400px;")
     
-    .cont-titulo-decorativo.p-2.mt-5.mb-5
+    .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="fade-left")
       .row
         .col-auto.pe-0
           figure
@@ -23,7 +23,7 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Adobe XD
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-out")
       .col-lg-10
         .fondo-personalizado-6.p-4.borde-11
           .row.align-items-center
@@ -142,7 +142,7 @@
                   figure
                     img.mx-auto(src="@/assets/curso/temas/73.png",style="max-width: 491px;")
     
-    .cont-titulo-decorativo.p-2.mt-5.mb-5
+    .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="fade")
       .row
         .col-auto.pe-0
           figure
@@ -150,7 +150,7 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Canva
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10
         .fondo-personalizado-6.p-4.borde-11
           .row.align-items-center
@@ -162,27 +162,27 @@
                   figure
                     img.mx-auto(src="@/assets/curso/temas/74.png",style="max-width: 120px;")
     
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       p.mb-0 #[b Figura 10.] Crear presentación móvil CANVA
     
     .fondo-personalizado-7.mb-5
-      .fondo-personalizado-7__contenido.py-5
+      .fondo-personalizado-7__contenido.py-5(data-aos="zoom-in-out")
         figure
           img.mx-auto(src="@/assets/curso/temas/76.png",style="max-width: 1030px;",alt="Se presenta la página principal de la herramienta Canva y el menú desplegable al seleccionar el botón Crea un diseño ubicado en la esquina superior derecha.")
     
-    p.mb-5 Canva, al igual que Adobe XD, permite diseñar interfaces para dispositivos móviles y ofrece un proceso similar. La plataforma sugiere comenzar con plantillas prediseñadas, lo que facilita el inicio de un proyecto.
+    p.mb-5(data-aos="fade-right") Canva, al igual que Adobe XD, permite diseñar interfaces para dispositivos móviles y ofrece un proceso similar. La plataforma sugiere comenzar con plantillas prediseñadas, lo que facilita el inicio de un proyecto.
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 11.] Uso de plantilla
     
     .fondo-personalizado-7.mb-5
-      .fondo-personalizado-7__contenido.py-5
+      .fondo-personalizado-7__contenido.py-5(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 1030px;",alt="Imagen ilustrativa de las plantillas prediseñadas que la herramienta Canva pone a disposición de los usuarios.")
     
-    p.mb-5 Finalmente, cabe destacar que estas no son las únicas herramientas disponibles en el mercado. Se han mencionado las anteriores debido a su popularidad, aceptación en el mercado, y la amplia disponibilidad de documentación y videotutoriales en diversas plataformas en línea.
+    p.mb-5(data-aos="fade-right") Finalmente, cabe destacar que estas no son las únicas herramientas disponibles en el mercado. Se han mencionado las anteriores debido a su popularidad, aceptación en el mercado, y la amplia disponibilidad de documentación y videotutoriales en diversas plataformas en línea.
 
-    .cont-titulo-decorativo.p-2.mt-5.mb-5
+    .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="fade")
       .row
         .col-auto.pe-0
           figure
@@ -190,7 +190,7 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Conceptos de Material Design
 
-    p.mb-0 Material Design es un estilo de diseño desarrollado por Google, anunciado el 25 de junio de 2014 durante la conferencia Google I/O. Este enfoque de diseño se ha implementado en el sistema operativo Android a partir de la versión #[em Lollipop], así como en otros servicios gratuitos de Google, incluyendo Docs, Calendar y Drive, entre otros.
+    p.mb-0(data-aos="fade-left") Material Design es un estilo de diseño desarrollado por Google, anunciado el 25 de junio de 2014 durante la conferencia Google I/O. Este enfoque de diseño se ha implementado en el sistema operativo Android a partir de la versión #[em Lollipop], así como en otros servicios gratuitos de Google, incluyendo Docs, Calendar y Drive, entre otros.
 
     .row.justify-content-center(data-aos="flip-up") 
       .col-lg-10
@@ -211,10 +211,10 @@
     p.mb-4 Los objetivos de esta propuesta son:
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/79.png",style="max-width: 400px;")
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .borde-10.fondo-color-sistema-k.p-4.mb-5
           ul.lista-ul.lista-personalizada-1.mb-0
             li
@@ -240,7 +240,7 @@
       div.ms-md-5(titulo="El movimiento otorga significado")
         p.ps-md-2.mb-3.pt-md-0.pt-2 En aplicaciones web o móviles, las animaciones captan la atención de los usuarios pero deben evitar interrumpir la experiencia del usuario. Es deseable que las animaciones estén relacionadas con la esencia del sitio o aplicación, como el efecto de presionar un botón o la experiencia de desplazar un elemento. Google considera que el movimiento subraya el papel del usuario como actor principal en la interacción con la máquina, permitiendo que las acciones del usuario modifiquen el diseño o la disposición de los elementos sin interferir con la experiencia de usuario.
     
-    p.mb-0 En conclusión, Material Design es una propuesta de diseño novedosa y que se está incorporando en las nuevas versiones de Android. Los principios del Material Design van guiados a mejorar la experiencia de usuario teniendo en cuenta las últimas tecnologías.
+    p.mb-0(data-aos="flip-up") En conclusión, Material Design es una propuesta de diseño novedosa y que se está incorporando en las nuevas versiones de Android. Los principios del Material Design van guiados a mejorar la experiencia de usuario teniendo en cuenta las últimas tecnologías.
 
     
 

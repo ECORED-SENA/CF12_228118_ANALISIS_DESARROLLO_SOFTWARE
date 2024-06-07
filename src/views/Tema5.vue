@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 5
       h1 Análisis de requerimientos
@@ -11,21 +11,21 @@
       .fondo-personalizado-5__contenido
         .row.mb-5 
           .col-lg-8
-            p.mb-5 El desarrollo de aplicaciones móviles va más allá de la mera codificación o programación; también implica analizar y comprender las necesidades del cliente, crear modelos que faciliten el proceso de desarrollo, planificar el proyecto y otras actividades relacionadas.
-            .fondo-color-sistema-k.p-4.borde-13
+            p.mb-5(data-aos="fade-down") El desarrollo de aplicaciones móviles va más allá de la mera codificación o programación; también implica analizar y comprender las necesidades del cliente, crear modelos que faciliten el proceso de desarrollo, planificar el proyecto y otras actividades relacionadas.
+            .fondo-color-sistema-k.p-4.borde-13(data-aos="fade-up")
               p.mb-0 La aplicación de técnicas para elicitar requisitos permite identificar las fuentes de estos con los interesados en el sistema (#[em stakeholders]). Sin embargo, estas actividades pueden llevar a que el cliente o los usuarios excedan lo que realmente necesitan o que no consideren las limitaciones a nivel de #[em hardware, software], presupuesto, tiempo o requisitos. Por lo tanto, es fundamental conocer con detalle lo que se pretende alcanzar y las necesidades reales a cubrir. Así, se deben detallar y modificar los requisitos básicos elicitados, lo cual se logra mediante el consenso de las partes involucradas.
-          .col-lg-4.order-first.order-lg-last
+          .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 393px;")
         
-        .row.mb-5.pb-3
+        .row.mb-5.pb-3(data-aos="fade-right")
           .col-auto.d-none.d-lg-block 
             figure
               img.mx-auto(src="@/assets/curso/temas/20.svg",style="max-width: 100px;")
           .col
             p.mb-0 Se deben responder las siguientes preguntas: #[span.color-sistema-l ¿Qué es lo prioritario?], #[span.color-sistema-l ¿qué es esencial?] y #[span.color-sistema-l ¿para cuándo se requiere?] Esto se especifica de alguna manera y luego se revisa o válida para garantizar que la comprensión del problema por parte del analista coincida con la de los demás participantes.
         
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="zoom-in-out")
           .col-lg-6.col-md-10
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 9.] Esquema de acuerdos
@@ -33,7 +33,7 @@
               img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/48.svg",style="max-width: 610px;",alt="El esquema de acuerdos presenta las relaciones del cliente inversionista, quien a partir de necesidades y recursos contrata a analistas para que de respuesta a necesidades de usuarios a través de suministro de hardware y software.")
               img.mx-auto.d-lg-none(src="@/assets/curso/temas/49.svg",style="max-width: 610px;",alt="El esquema de acuerdos presenta las relaciones del cliente inversionista, quien a partir de necesidades y recursos contrata a analistas para que de respuesta a necesidades de usuarios a través de suministro de hardware y software.")
         
-        .row.pt-5.mb-5
+        .row.pt-5.mb-5(data-aos="fade-left")
           .col-auto.d-none.d-md-block 
             figure
               img.mx-auto(src="@/assets/curso/temas/15.svg",style="max-width: 85px;")
@@ -115,8 +115,8 @@
 
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0
-        p.mb-4 Cuando un requisito o un conjunto de ellos forma parte de todo un ecosistema tecnológico en el que intervienen distintos tipos de aplicaciones (web, de escritorio, móviles, interacciones con otros sistemas de proveedores, clientes o socios), como ocurre, por ejemplo, con los sistemas bancarios que disponen de aplicaciones móviles, aplicaciones web, terminales de escritorio y portales para asociados, las historias de usuario no siempre ofrecen una visión completa de la complejidad del problema.
-        .fondo-color-sistema-k.borde-13.p-3
+        p.mb-4(data-aos="fade-right") Cuando un requisito o un conjunto de ellos forma parte de todo un ecosistema tecnológico en el que intervienen distintos tipos de aplicaciones (web, de escritorio, móviles, interacciones con otros sistemas de proveedores, clientes o socios), como ocurre, por ejemplo, con los sistemas bancarios que disponen de aplicaciones móviles, aplicaciones web, terminales de escritorio y portales para asociados, las historias de usuario no siempre ofrecen una visión completa de la complejidad del problema.
+        .fondo-color-sistema-k.borde-13.p-3(data-aos="fade-up")
           .row.align-items-center 
             .col-md-auto
               .d-flex.mb-4.mb-md-0
@@ -125,11 +125,11 @@
                     img.mx-auto(src="@/assets/curso/temas/53.svg",style="max-width: 93px;")
             .col 
               p.mb-0 Estos sistemas generalmente cuentan con lo que se denomina #[b "Reglas de Negocio"] o un #[b "Conjunto de Reglas de Negocio"] que describen las políticas, operaciones, normativas, definiciones y restricciones que rigen en una organización. Dichas reglas son fundamentales para los sistemas de información o aplicaciones, ya que consideran los factores críticos para alcanzar los objetivos misionales del cliente. En algunos casos, incluso se requiere de un glosario de términos específicos del negocio para poder especificar dichas reglas de forma adecuada.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/54.png",style="max-width: 502px;")
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-8
         .fondo-personalizado-6.py-4.ps-3.pe-4.borde-11
           .row.align-items-center 
@@ -142,10 +142,10 @@
               p.mb-4.fw-bold.text-white Por ejemplo
               p.mb-0.text-white Una regla de negocio podría ser: un cliente al que se factura más de 10,000 al año se clasifica como cliente de tipo A; a los clientes de tipo A se les aplica un descuento del 10 % en pedidos que superen los 3,000.
     
-    p.mb-5 Las reglas de negocio pueden llegar a ser tan complejas como las operaciones del cliente. En situaciones de esta índole, se sugiere el uso de artefactos como los casos de uso para definir con detalle la especificación del sistema. Para guiar el proceso, se proponen algunos artefactos a elaborar:
+    p.mb-5(data-aos="fade") Las reglas de negocio pueden llegar a ser tan complejas como las operaciones del cliente. En situaciones de esta índole, se sugiere el uso de artefactos como los casos de uso para definir con detalle la especificación del sistema. Para guiar el proceso, se proponen algunos artefactos a elaborar:
 
     .row.justify-content-center.mb-2
-      .col-lg-5.mb-4
+      .col-lg-5.mb-4(data-aos="fade-right")
         .tarjeta-personalizada-1.p-5.h-100
           .burbuja-1.fondo-color-acento-contenido.me-auto.mb-2
             figure
@@ -153,7 +153,7 @@
           br
           h3.mb-4.fondo-color-acento-contenido.d-inline-block.px-2.pt-1 Documento de especificación de requisitos
           p.mb-3.text-white Este documento permite identificar el objetivo general de cada requerimiento sin abordar demasiados detalles técnicos ni de reglas de negocio que se presenten en la operación. Es una base para la estimación de costos y tiempos de desarrollo.
-      .col-lg-5.mb-4
+      .col-lg-5.mb-4(data-aos="fade-left")
         .tarjeta-personalizada-1.p-5.h-100
           .burbuja-1.fondo-color-acento-contenido.me-auto.mb-2
             figure
@@ -162,7 +162,7 @@
           h3.mb-4.fondo-color-acento-contenido.d-inline-block.px-2.pt-1 Plantilla de casos de uso
           p.mb-3.text-white Algunos de los requerimientos especificados en el documento de especificación de requisitos pueden necesitar un nivel de detalle técnico superior, especialmente al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares donde intervienen reglas de negocio.
     
-    p.mb-0 Como se puede identificar, los requerimientos de una aplicación móvil suelen estar cubiertos por técnicas como la elaboración de historias de usuario. No obstante, cuando la aplicación móvil forma parte de un ecosistema tecnológico más complejo, el proceso requiere de algún artefacto que facilite la identificación y validación de los requisitos.
+    p.mb-0(data-aos="zoom-in-out") Como se puede identificar, los requerimientos de una aplicación móvil suelen estar cubiertos por técnicas como la elaboración de historias de usuario. No obstante, cuando la aplicación móvil forma parte de un ecosistema tecnológico más complejo, el proceso requiere de algún artefacto que facilite la identificación y validación de los requisitos.
 
 
     

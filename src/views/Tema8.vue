@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
       h1 Componentes de #[em software]
 
-    p.mb-5 Los sistemas de información se componen de diversos elementos que, operando conjuntamente bajo premisas definidas, logran el objetivo de mantener en operación dichos sistemas. A continuación, se detallan algunos de estos elementos esenciales para garantizar la continuidad del funcionamiento del sistema.
+    p.mb-5(data-aos="fade") Los sistemas de información se componen de diversos elementos que, operando conjuntamente bajo premisas definidas, logran el objetivo de mantener en operación dichos sistemas. A continuación, se detallan algunos de estos elementos esenciales para garantizar la continuidad del funcionamiento del sistema.
 
     .row 
       .col-lg-8.mb-5
@@ -19,7 +19,7 @@
             .col.align-self-end
               h3.mt-3.mb-0.me-2 Licenciamiento
         
-        p.mb-4 Una aceptación inequívoca de este contrato se realiza cuando se descarga e instala el #[em software] a través del medio oficial de distribución del producto. Es decir, aunque no se firme un documento de manera explícita, las acciones descritas en el contrato (generalmente: descarga, instalación, configuración) que implican la aceptación de las condiciones, son consideradas legalmente como equivalentes a la firma de un contrato de licencia.
+        p.mb-4(data-aos="fade-up") Una aceptación inequívoca de este contrato se realiza cuando se descarga e instala el #[em software] a través del medio oficial de distribución del producto. Es decir, aunque no se firme un documento de manera explícita, las acciones descritas en el contrato (generalmente: descarga, instalación, configuración) que implican la aceptación de las condiciones, son consideradas legalmente como equivalentes a la firma de un contrato de licencia.
       .col-lg-4.mb-5.mb-lg-0
         figure
           img.mx-auto(src="@/assets/curso/temas/100.svg",style="max-width: 400px;")
@@ -34,7 +34,7 @@
             .col.align-self-end
               h3.mt-3.mb-0.me-2 Tipos de licencia de #[em software]
       
-        p.mb-0 En Colombia, la normativa que regula las licencias de software está contenida en la Ley 603 de 2000, conocida como la ley de licencias de software o Ley para el cumplimiento de las licencias de software. Las licencias se clasifican según el uso final y las libertades que el autor concede sobre su producto al usuario final. Por lo tanto, es crucial conocer los tipos de licenciamiento:
+        p.mb-0(data-aos="fade-down") En Colombia, la normativa que regula las licencias de software está contenida en la Ley 603 de 2000, conocida como la ley de licencias de software o Ley para el cumplimiento de las licencias de software. Las licencias se clasifican según el uso final y las libertades que el autor concede sobre su producto al usuario final. Por lo tanto, es crucial conocer los tipos de licenciamiento:
     
     ImagenInfografica.color-acento-botones.imagen-infografica-personalizada-1.mb-5(data-aos="zoom-in-out")
       template(v-slot:imagen)
@@ -57,19 +57,19 @@
         .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Licencia corporativa por volumen
         p La licencia que las empresas suelen adquirir establece un número específico de dispositivos, en los cuales el programa puede ser instalado y utilizado dentro de la misma organización.
 
-    p.mb-0 El incumplimiento del uso de #[em software] no licenciado puede acarrear sanciones administrativas de hasta 200 salarios mínimos legales mensuales vigentes (200 SMMLV) para todos los administradores de la empresa, según lo estipulado por la Superintendencia de Sociedades.
+    p.mb-0(data-aos="fade-left") El incumplimiento del uso de #[em software] no licenciado puede acarrear sanciones administrativas de hasta 200 salarios mínimos legales mensuales vigentes (200 SMMLV) para todos los administradores de la empresa, según lo estipulado por la Superintendencia de Sociedades.
 
     Separador
 
-    #t_8_1.titulo-segundo.color-acento-contenido
+    #t_8_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 8.1 Seguridad
 
     .fondo-personalizado-4.pos-3
       .fondo-personalizado-4__contenido.pb-5
         .row.mb-4
           .col-lg-8.mb-4.mb-lg-0
-            p.mb-4 La seguridad de las aplicaciones se refiere a las medidas implementadas a nivel de aplicación, incluida la codificación, cuyo objetivo es prevenir el acceso no autorizado, así como el robo o secuestro de datos o códigos dentro de la aplicación. Esto abarca las consideraciones de seguridad que se deben tener en cuenta durante el desarrollo y diseño de aplicaciones, además de los sistemas y técnicas empleados para proteger las aplicaciones una vez distribuidas.
-            .fondo-color-sistema-k.p-4.borde-13
+            p.mb-4(data-aos="fade-up") La seguridad de las aplicaciones se refiere a las medidas implementadas a nivel de aplicación, incluida la codificación, cuyo objetivo es prevenir el acceso no autorizado, así como el robo o secuestro de datos o códigos dentro de la aplicación. Esto abarca las consideraciones de seguridad que se deben tener en cuenta durante el desarrollo y diseño de aplicaciones, además de los sistemas y técnicas empleados para proteger las aplicaciones una vez distribuidas.
+            .fondo-color-sistema-k.p-4.borde-13(data-aos="fade-down")
               .row.align-items-center
                 .col-md-auto
                   .d-flex
@@ -79,10 +79,10 @@
                 .col 
                   p.mb-0 Para asegurar las aplicaciones, es fundamental incluir medidas en el #[em hardware], #[em software] y procedimientos que minimicen las vulnerabilidades de seguridad. La estrategia de publicación de servicios de información requiere el uso de un conjunto de protocolos o procedimientos, y para garantizar la seguridad, es esencial realizar pruebas pertinentes.
           .col-lg-4
-            figure
+            figure(data-aos="flip-up")
               img.mx-auto(src="@/assets/curso/temas/103.png",style="max-width: 400px;")
 
-        .fondo-color-sistema-r.p-4.borde-24.mb-5
+        .fondo-color-sistema-r.p-4.borde-24.mb-5(data-aos="zoom-in-out")
           .row.align-items-center
             .col-md-auto 
               figure.mb-4.mb-md-0
@@ -90,7 +90,7 @@
             .col 
               p.mb-0 La seguridad de las aplicaciones implica desarrollar, incorporar y probar características de seguridad destinadas a proteger las aplicaciones de amenazas, como la modificación y el acceso no autorizados. Es crucial asegurar esto, ya que las aplicaciones modernas suelen estar disponibles a través de múltiples redes y conectadas a la nube, lo que incrementa las vulnerabilidades a las que están expuestas.
     
-    TabsA.tab-a-personalizado-1.color-acento-botones.mb-5
+    TabsA.tab-a-personalizado-1.color-acento-botones.mb-5(data-aos="fade-right")
       .tarjeta.fondo-color-sistema-n.borde-10.p-5(titulo="Autenticación")
         h4.mb-5 Autenticación 
         p Procedimientos casi indispensables en el desarrollo de una aplicación para asegurar que solo accedan los usuarios autorizados. Esto comúnmente se logra mediante un nombre de usuario y contraseña, pero también puede incluir métodos adicionales como huellas dactilares, reconocimiento facial o de voz, conocido como autenticación de múltiples factores.
@@ -104,7 +104,7 @@
         h4.mb-5 Registro de incidencias 
         p En caso de vulneraciones de seguridad, el registro puede ayudar a identificar quién ha accedido a los datos, cómo y cuándo. Se deben utilizar archivos de registro con toda la información relacionada para facilitar esta tarea.
     
-    p.mb-5 En conclusión, los tipos básicos de seguridad de la aplicación son la autenticación, el cifrado y el registro de incidencias. Sin embargo, según el contexto del funcionamiento de la aplicación, se deben considerar otros aspectos relevantes.
+    p.mb-5(data-aos="fade-up") En conclusión, los tipos básicos de seguridad de la aplicación son la autenticación, el cifrado y el registro de incidencias. Sin embargo, según el contexto del funcionamiento de la aplicación, se deben considerar otros aspectos relevantes.
 
     .row 
       .col-lg-4
@@ -123,18 +123,18 @@
     
     Separador
 
-    #t_8_2.titulo-segundo.color-acento-contenido
+    #t_8_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-out")
       h2 8.2 #[em API Firebase]
     
     .row.mb-5
       .col-lg-8
-        p.mb-0 Las organizaciones están adoptando modelos de arquitectura de #[em software] basados en microservicios. Un microservicio es un servicio pequeño destinado a una función específica, y para realizar procesos más complejos, se coordinan múltiples microservicios. Esto permite que el mismo servicio, aunque publicado en internet, no sea para usuarios finales sino para su uso por aplicaciones. De esta manera, una aplicación móvil puede utilizar ese servicio de la misma forma que una aplicación web o un #[em chatbot].
-      .col-lg-4.order-first.order-lg-last
+        p.mb-0(data-aos="fade-right") Las organizaciones están adoptando modelos de arquitectura de #[em software] basados en microservicios. Un microservicio es un servicio pequeño destinado a una función específica, y para realizar procesos más complejos, se coordinan múltiples microservicios. Esto permite que el mismo servicio, aunque publicado en internet, no sea para usuarios finales sino para su uso por aplicaciones. De esta manera, una aplicación móvil puede utilizar ese servicio de la misma forma que una aplicación web o un #[em chatbot].
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/106.png",style="max-width: 400px;")
     
     .row.justify-content-center 
-      .col-lg-10
+      .col-lg-10(data-aos="flip-up")
         PasosA.pasos-personalizado-a-1.color-primario.mb-5(tipo="n")
           .row.align-items-end
             .col-lg-7.mb-4.mb-lg-0
@@ -154,13 +154,13 @@
     .fondo-personalizado-10.mb-5
       .fondo-personalizado-10__contenido.pt-5.pb-4
         .row.pt-5.align-items-center
-          .col-lg-8
+          .col-lg-8(data-aos="fade-down")
             p.mb-0 La herramienta principal de #[em Firebase] son las bases de datos en tiempo real, alojadas en la nube y de tipo NoSQL en formato JSON. Este servicio permite alojar y gestionar datos de la aplicación en tiempo real, manteniéndolos actualizados incluso si el usuario no realiza ninguna acción. #[em Firebase] también envía automáticamente eventos que activan funcionalidades de las aplicaciones cuando los datos cambian, lo que facilita el desarrollo de aplicaciones con funcionalidades en tiempo real.
-          .col-lg-4.order-first.order-lg-last
+          .col-lg-4.order-first.order-lg-last(data-aos="fade-up")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/110.svg",style="max-width: 400px;")
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-auto.d-none.d-lg-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/20.svg",style="max-width: 100px;")
@@ -181,7 +181,7 @@
             span(style="color:initial;") Descargar
             i.fas.fa-file-download(style="color:initial;")
 
-    .fondo-color-sistema-r.p-4.borde-24.mb-4
+    .fondo-color-sistema-r.p-4.borde-24.mb-4(data-aos="fade-left")
       .row.align-items-center
         .col-md-auto 
           figure.mb-4.mb-md-0
@@ -191,17 +191,67 @@
     
     Separador
 
-    #t_8_3.titulo-segundo.color-acento-contenido.mb-lg-0
+    #t_8_3.titulo-segundo.color-acento-contenido.mb-lg-0(data-aos="zoom-in-out")
       h2 8.3 Herramientas
 
-    .row.align-items-center
-      .col-lg-9
+    .row.align-items-center.mb-4
+      .col-lg-9(data-aos="fade-right")
         p.mb-0 Durante el desarrollo de proyectos que emplean microservicios, las pruebas de #[em API] son esenciales para garantizar la ejecución, funcionalidad, confiabilidad y seguridad de la aplicación, tanto en la fase de desarrollo como en la de consumo de la #[em API]. A continuación, se presentan varias herramientas de libre distribución que facilitan el proceso de prueba y diseño de #[em APIS] publicadas a través de los diferentes protocolos web.
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/112.svg",style="max-width: 292px;")
     
-    p(style="color: red;") impornatnteee
+    .fondo-personalizado-11.mb-5
+      img.imgf-1(src="@/assets/curso/temas/113.png")
+      img.imgf-2(src="@/assets/curso/temas/114.png")
+      img.imgf-3(src="@/assets/curso/temas/115.png")
+      img.imgf-4(src="@/assets/curso/temas/116.png")
+      img.imgf-5(src="@/assets/curso/temas/117.png")
+      .fondo-personalizado-11__contenido.pe-3.ps-3.ps-lg-0.pt-5
+        .row.align-items-center(data-aos="zoom-in-out")
+          .col-lg-4
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/118.svg",style="max-width: 401px;")
+          .col-lg-8
+            SlyderF.slider-personalizado-2.mb-3(columnas="col-lg-6").pb-4
+              .borde-22.h-100.overflow-hidden
+                .bg-white.d-flex.align-items-center.justify-content-center(style="height: 118px;")
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/119.png",style="max-width: 219px;")
+                .fondo-color-primario.p-3.h-100
+                  p.mb-3.fw-bold.text-white.color-acento-contenido.text-center Independiente
+                  p.mb-0.text-white.text-center Puede comprobar los servicios web SOAP como los servicios web de tipo RESTful. Está disponible como una versión de código abierto y PRO. Basado en Java, es empleable en cualquier sistema operativo, fácil de aprender y usar, y confiable para todos.
+              .borde-22.h-100.overflow-hidden
+                .bg-white.d-flex.align-items-center.justify-content-center(style="height: 118px;")
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/120.png",style="max-width: 232px;")
+                .fondo-color-primario.p-3.h-100
+                  p.mb-3.fw-bold.text-white.color-acento-contenido.text-center Estudio Katalon
+                  p.mb-0.text-white.text-center Automatiza procesos de pruebas de servicios web y APIs para dispositivos móviles. Reconocida como la mejor en el área de automatización de este tipo de pruebas.
+              .borde-22.h-100.overflow-hidden
+                .bg-white.d-flex.align-items-center.justify-content-center(style="height: 118px;")
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/121.png",style="max-width: 213px;")
+                .fondo-color-primario.p-3.h-100
+                  p.mb-3.fw-bold.text-white.color-acento-contenido.text-center TestNG
+                  p.mb-0.text-white.text-center Inspirado en JUnit y NUnit para el lenguaje Java. Su lema principal es proporcionar funcionalidades fáciles de usar y cumplir con todo tipo de fases de prueba como unidad, integración, funcional, entre otros.
+              .borde-22.h-100.overflow-hidden
+                .bg-white.d-flex.align-items-center.justify-content-center(style="height: 118px;")
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/122.png",style="max-width: 233px;")
+                .fondo-color-primario.p-3.h-100
+                  p.mb-3.fw-bold.text-white.color-acento-contenido.text-center JMeter
+                  p.mb-0.text-white.text-center Automatiza pruebas, pero también puede realizar pruebas de rendimiento, pruebas de estrés de los servicios RESTful y SOAP, con el uso de scripts de JMeter.
+              .borde-22.h-100.overflow-hidden
+                .bg-white.d-flex.align-items-center.justify-content-center(style="height: 118px;")
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/123.png",style="max-width: 257px;")
+                .fondo-color-primario.p-3.h-100
+                  p.mb-3.fw-bold.text-white.color-acento-contenido.text-center PostMan
+                  p.mb-0.text-white.text-center Tal vez el más popular porque está enfocado en el proceso de desarrollo, lo que lo hace muy fácil de usar.
+
+             
+
 
     .fondo-color-sistema-r.p-4.borde-24.mb-4
       .row.align-items-center

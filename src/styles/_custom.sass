@@ -70,6 +70,8 @@
   color: $color-sistema-l !important
 .col-color-primario
   color: $color-primario !important
+.col-color-sistema-t
+  color: $color-sistema-t !important
 .color-acento-contenido,span.color-acento-contenido
   color: $color-acento-contenido !important
 
@@ -129,6 +131,8 @@
   border-radius: 18px !important
 .borde-20
   border-radius: 20px !important
+.borde-22
+  border-radius: 22px !important
 .borde-23
   border-radius: 23px !important
 .borde-24
@@ -232,6 +236,10 @@
   &.pos-2
     &:before
       bottom: 50px
+  &.pos-4
+    &:before
+      bottom: 170px
+      top: 180px
 
 .fondo-personalizado-6
   background: rgb(146,41,238)
@@ -308,6 +316,51 @@
   &__contenido
     position: relative
 
+.fondo-personalizado-11
+  position: relative
+  overflow: hidden
+  &:before
+    content: ""
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: #E8EEFE
+  &__contenido
+    position: relative
+  .imgf-1
+    position: absolute
+    max-width: 141px
+    left: 0
+    top: 0
+    transform: translateX(-55%) translateY(-15%)
+  .imgf-2
+    position: absolute
+    max-width: 88px
+    bottom: 0
+    left: 0px
+    transform: translateY(50%) translateX(30%)
+  .imgf-3
+    position: absolute
+    max-width: 80px
+    top: 0
+    left: 300px
+    transform: translateY(38%) translateX(25%)
+  .imgf-4
+    position: absolute
+    max-width: 107px
+    top: 0
+    right: 0
+    transform: translateY(-48%) translateX(48%)
+  .imgf-5
+    position: absolute
+    max-width: 367px
+    bottom: 0
+    right: 0
+    transform: translateY(33%) translateX(15%)
+
 
 //tarjetas
 .tarjeta-img-1
@@ -376,6 +429,26 @@
     bottom: 0
     right: 0
     transform: translateY(33%) translateX(34%)
+
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    &:before
+      content: ""
+      background-color: #FFCE00
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1rem
+      color: $color-sistema-texto
 
 //figuras
 .figura-deco-1
@@ -552,12 +625,38 @@
       border-radius: 50%
       font-size: 0
 
-        
-
-
 //imagen infografica
 .imagen-infografica-personalizada-1
   .img-infografica__item, .img-infografica-b__item
     width: 4%
     @media screen and (max-width: $bp-max-md)
       width: 9%
+
+//bloque codigo
+.bloque-codigo-personalizado
+  width: 100%
+  border-radius: 9px
+  overflow: hidden
+  .cabecera-bloque-codigo
+    background-color: #3A1D71 !important
+    .bloque-codigo-circulos
+      display: flex
+      gap: 1em
+      .bloque-codigo-circulo
+        height: 16px
+        width: 16px
+        border-radius: 50%
+        &.c1
+          background-color: #FB130D
+        &.c2
+          background-color: #FECD02
+        &.c3
+          background-color: #43DFAA
+  .cuerpo-bloque-codigo
+    color: white !important
+    background-color: #110628 !important
+    overflow-x: auto
+    text-wrap: nowrap
+    code
+      font: inherit
+      color: white !important

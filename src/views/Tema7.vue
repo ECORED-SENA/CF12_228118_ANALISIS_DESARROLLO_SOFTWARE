@@ -8,14 +8,14 @@
       h1 Principios básicos de usabilidad
     
     .row.mb-4
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         .fondo-color-sistema-r.p-4.borde-13
           p.mb-0 La usabilidad es un término que evalúa la calidad de la experiencia de usuario al interactuar con un producto o sistema. Se mide a través del análisis de la relación entre las herramientas diseñadas y los usuarios que las emplean, con el objetivo de determinar la eficiencia y efectividad en el uso de los elementos ofrecidos en las interfaces y en el cumplimiento de las tareas que se realizan mediante ellas. Por tanto, la usabilidad puede definirse como la disciplina que estudia el diseño de aplicaciones móviles o sitios web para facilitar una interacción fácil, fluida e intuitiva por parte de los usuarios.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/82.png",style="max-width: 400px;")
     
-    .fondo-color-sistema-k.px-4.py-2.borde-13.mb-5
+    .fondo-color-sistema-k.px-4.py-2.borde-13.mb-5(data-aos="fade-up")
       .row.align-items-center
         .col-md-auto 
           .burbuja-1.fondo-color-acento-contenido.mx-auto
@@ -77,7 +77,7 @@
                 figure
                   img.mx-auto(src="@/assets/curso/temas/90.png",style="max-width: 400px;")
     
-    p.mb-5 Los anteriores aspectos aplican en principio a cualquier tipo de aplicación, web o móvil, sin embargo, el compendio de buenas prácticas para aplicaciones móviles se destaca por aspectos como los relacionados a continuación:
+    p.mb-5(data-aos="zoom-in-out") Los anteriores aspectos aplican en principio a cualquier tipo de aplicación, web o móvil, sin embargo, el compendio de buenas prácticas para aplicaciones móviles se destaca por aspectos como los relacionados a continuación:
 
     .row.justify-content-center
       .col-lg-10
@@ -85,7 +85,7 @@
           img.imgf-1(src="@/assets/curso/temas/91.png")
           img.imgf-2(src="@/assets/curso/temas/92.png")
           img.imgf-3(src="@/assets/curso/temas/93.png")
-          .fondo-personalizado-9__contenido.p-4.pb-5
+          .fondo-personalizado-9__contenido.p-4.pb-5(data-aos="fade")
             PasosB.pasos-personalizado-1
               .row.mb-5.pt-3(titulo="")
                 .col-md-6.mb-4.mb-md-0.ps-lg-5
