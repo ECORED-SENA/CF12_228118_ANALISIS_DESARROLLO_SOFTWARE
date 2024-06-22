@@ -9,7 +9,7 @@
 
     p.mb-5(data-aos="fade") Los sistemas de información se componen de diversos elementos que, operando conjuntamente bajo premisas definidas, logran el objetivo de mantener en operación dichos sistemas. A continuación, se detallan algunos de estos elementos esenciales para garantizar la continuidad del funcionamiento del sistema.
 
-    .row 
+    .row.mb-5
       .col-lg-8.mb-5
         .cont-titulo-decorativo.p-2.mb-5
           .row
@@ -19,7 +19,10 @@
             .col.align-self-end
               h3.mt-3.mb-0.me-2 Licenciamiento
         
-        p.mb-4(data-aos="fade-up") Una aceptación inequívoca de este contrato se realiza cuando se descarga e instala el #[em software] a través del medio oficial de distribución del producto. Es decir, aunque no se firme un documento de manera explícita, las acciones descritas en el contrato (generalmente: descarga, instalación, configuración) que implican la aceptación de las condiciones, son consideradas legalmente como equivalentes a la firma de un contrato de licencia.
+        p.mb-4(data-aos="fade-up") Una licencia de #[em software] es un contrato que establece los derechos legales del uso autorizado de un sistema de información, programa o aplicación. En otras palabras, es un acuerdo mediante el cual el fabricante o proveedor del #[em software] concede a una persona u organización el permiso para usar un producto específico.
+        .fondo-color-sistema-r.p-4.borde-16
+          p.mb-0 Una aceptación inequívoca de este contrato se realiza cuando se descarga e instala el #[em software] a través del medio oficial de distribución del producto. Es decir, aunque no se firme un documento de manera explícita, las acciones descritas en el contrato (generalmente: descarga, instalación, configuración) que implican la aceptación de las condiciones, son consideradas legalmente como equivalentes a la firma de un contrato de licencia. 
+
       .col-lg-4.mb-5.mb-lg-0
         figure
           img.mx-auto(src="@/assets/curso/temas/100.svg",style="max-width: 400px;")
@@ -34,7 +37,7 @@
             .col.align-self-end
               h3.mt-3.mb-0.me-2 Tipos de licencia de #[em software]
       
-        p.mb-0(data-aos="fade-down") En Colombia, la normativa que regula las licencias de software está contenida en la Ley 603 de 2000, conocida como la ley de licencias de software o Ley para el cumplimiento de las licencias de software. Las licencias se clasifican según el uso final y las libertades que el autor concede sobre su producto al usuario final. Por lo tanto, es crucial conocer los tipos de licenciamiento:
+        p.mb-0(data-aos="fade-down") En Colombia, la normativa que regula las licencias de #[em software] está contenida en la Ley 603 de 2000, conocida como la ley de licencias de #[em software] o Ley para el cumplimiento de las licencias de #[em software]. Las licencias se clasifican según el uso final y las libertades que el autor concede sobre su producto al usuario final. Por lo tanto, es crucial conocer los tipos de licenciamiento:
     
     ImagenInfografica.color-acento-botones.imagen-infografica-personalizada-1.mb-5(data-aos="zoom-in-out")
       template(v-slot:imagen)
@@ -149,7 +152,7 @@
                 img.mx-auto(src='@/assets/curso/temas/108.png',style="max-width: 287px;")
             .col-lg-7.mb-4.mb-lg-0
               h4.mb-4.text-start #[em Firebase]
-              p.text-start Es una plataforma en la nube de Google para el desarrollo de aplicaciones web y móviles, creada en 2011 y adquirida por Google en 2014. Su principal función es facilitar la creación de aplicaciones web y móviles, proporcionando herramientas que agilizan el desarrollo sin sacrificar calidad ni seguridad. Para utilizar los servicios de Firebase, es necesario consumir la API proporcionada por Google.
+              p.text-start Es una plataforma en la nube de Google para el desarrollo de aplicaciones web y móviles, creada en 2011 y adquirida por Google en 2014. Su principal función es facilitar la creación de aplicaciones web y móviles, proporcionando herramientas que agilizan el desarrollo sin sacrificar calidad ni seguridad. Para utilizar los servicios de #[em Firebase], es necesario consumir la API proporcionada por Google.
 
     .fondo-personalizado-10.mb-5
       .fondo-personalizado-10__contenido.pt-5.pb-4
@@ -219,7 +222,7 @@
                   figure
                     img.mx-auto(src="@/assets/curso/temas/119.png",style="max-width: 219px;")
                 .fondo-color-primario.p-3.h-100
-                  p.mb-3.fw-bold.text-white.color-acento-contenido.text-center Independiente
+                  p.mb-3.fw-bold.text-white.color-acento-contenido.text-center SOAP UI
                   p.mb-0.text-white.text-center Puede comprobar los servicios web SOAP como los servicios web de tipo RESTful. Está disponible como una versión de código abierto y PRO. Basado en Java, es empleable en cualquier sistema operativo, fácil de aprender y usar, y confiable para todos.
               .borde-22.h-100.overflow-hidden
                 .bg-white.d-flex.align-items-center.justify-content-center(style="height: 118px;")

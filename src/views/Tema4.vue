@@ -10,9 +10,9 @@
     .row.align-items-end.mb-5
       .col-lg-7(data-aos="fade-right")
         p.mb-0 Para el desarrollo de la estructura del #[em front-end], que en el ámbito de este componente formativo se limita exclusivamente a las tecnologías de HTML5 y CSS3, se utilizará el #[em framework] de maquetación llamado Materialize. Este #[em framework] CSS permite crear sitios y aplicaciones web siguiendo los principios de #[em Material Design]. La versión estándar del #[em framework] incluye CSS y JavaScript, con los estilos CSS listos para usar.
-        p.mb-4 Además, Materialize incorpora buenas prácticas para el desarrollo del #[em front-end], lo que contribuye a que la aplicación sea más eficiente y rápida en su despliegue. Por otra parte, es un #[em framework] responsive, lo que significa que se adapta a cualquier tamaño de dispositivo.
+        p.mb-4 Además, Materialize incorpora buenas prácticas para el desarrollo del #[em front-end], lo que contribuye a que la aplicación sea más eficiente y rápida en su despliegue. Por otra parte, es un #[em framework] #[em responsive], lo que significa que se adapta a cualquier tamaño de dispositivo.
         .borde-13.p-4.fondo-color-sistema-n
-          p.mb-0 A continuación, se detallan los pasos para la instalación y manejo del framework (Materialize, 2021):
+          p.mb-0 A continuación, se detallan los pasos para la instalación y manejo del #[em framework] (Materialize, 2021):
       .col-lg-5(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/35.svg",style="max-width: 525px;")
@@ -24,7 +24,7 @@
         
         .row.mb-5
           .col-lg-7
-            p.mb-4(data-aos="fade-up") Existen varias formas de instalar el framework. En este caso, se utilizará la descarga de los archivos, disponible en el enlace proporcionado en la sección de material de apoyo con el nombre #[b "Descarga de archivos Materialize"].
+            p.mb-4(data-aos="fade-up") Existen varias formas de instalar el #[em framework]. En este caso, se utilizará la descarga de los archivos, disponible en el enlace proporcionado en la sección de material de apoyo con el nombre #[b "Descarga de archivos Materialize"].
             .fondo-color-sistema-o.p-4.borde-13(data-aos="fade-down")
               .row.align-items-center
                 .col-md-auto 
@@ -53,7 +53,7 @@
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 4.] Proyecto de Materialize en Visual Studio Code
             figure
-              img.mx-auto(src="@/assets/curso/temas/39.png",style="max-width: 399px;",alt="Imagen de la manera de incorporar o llamar a esa carpeta desde un entorno de desarrollo integrado en Visual Studio Code.")
+              img.mx-auto(src="@/assets/curso/temas/39.svg",style="max-width: 399px;",alt="Imagen de la manera de incorporar o llamar a esa carpeta desde un entorno de desarrollo integrado en Visual Studio Code.")
 
     .borde-20.fondo-color-primario.px-4.py-2.d-inline-block.mb-4(data-aos="zoom-in-out")
       h4.mb-0.text-white.fw-bold C)	Configuración del proyecto
@@ -67,12 +67,12 @@
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 5.] Archivo index.html de la guía de Materialize
             figure
-              img.me-auto(src="@/assets/curso/temas/40.png",style="max-width: 715px;",alt=" Vista de Archivo index.html de la guía de Materialize.")
+              img.me-auto(src="@/assets/curso/temas/40.svg",style="max-width: 715px;",alt=" Vista de Archivo index.html de la guía de Materialize.")
         
         .borde-20.fondo-color-primario.px-4.py-2.d-inline-block.mb-5.mt-5(data-aos="fade")
           h4.mb-0.text-white.fw-bold D)	Desarrollo del proyecto (primera vista)
         
-        p.mb-0(data-aos="fade-left") Hasta el momento, tanto el framework como el entorno para crear las vistas del caso de estudio están preparados en este componente formativo. Por lo tanto, es necesario referirse nuevamente a la primera vista diseñada para revisar los componentes necesarios para el desarrollo.
+        p.mb-0(data-aos="fade-left") Hasta el momento, tanto el #[em framework] como el entorno para crear las vistas del caso de estudio están preparados en este componente formativo. Por lo tanto, es necesario referirse nuevamente a la primera vista diseñada para revisar los componentes necesarios para el desarrollo.
         p.mb-4 En la primera vista, se requiere lo siguiente:
 
         ul.lista-ul.lista-personalizada-1.mb-5(data-aos="fade-right")
@@ -124,7 +124,7 @@
                   figure.mb-4.mb-md-0
                     img.mx-auto(src="@/assets/curso/temas/36.svg",style="max-width: 74px;")
                 .col 
-                  p.mb-0 Además, en el código se muestra el uso de colores. Por ejemplo, el título de la página utiliza el atributo #[em "orange-text"], que proporciona el color naranja al texto "Publica tu Post", como se presenta a continuación:
+                  p.mb-0 Además, en el código se muestra el uso de colores. Por ejemplo, el título de la página utiliza el atributo #[em "orange-text"], que proporciona el color naranja al texto "Publica tu #[em Post]", como se presenta a continuación:
           .col-lg-5(data-aos="fade-down")
             figure
               img.mx-auto(src="@/assets/curso/temas/41.png",style="max-width: 502px;")
@@ -134,11 +134,11 @@
         .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-lg-6
             .titulo-sexto.color-acento-contenido.mb-5
-              p.mb-0 #[b Figura 6.] Publica tu post
+              p.mb-0 #[b Figura 6.] Publica tu #[em post]
             figure
               img.mx-auto(src="@/assets/curso/temas/42.svg",style="max-width: 610px;",alt="Un ejemplo de maquetación utilizando framework de Materialize.")
 
-        p.mb-5(data-aos="zoom-in-out") Ahora continúa el desarrollo del formulario, el cual consta de dos (2) inputs: uno destinado al título del post y otro al área de texto, tal como se presenta a continuación:
+        p.mb-5(data-aos="zoom-in-out") Ahora continúa el desarrollo del formulario, el cual consta de dos (2) inputs: uno destinado al título del #[em post] y otro al área de texto, tal como se presenta a continuación:
 
         .row.justify-content-center.pt-5.mb-5.pb-5
           .col-lg-6

@@ -73,7 +73,7 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 389px;")
     
-    p.mb-0(data-aos="fade-left") Con esta perspectiva, y abordando de manera sucinta estos conceptos, se propone como caso de estudio la estructura y maquetación de la interfaz de un servicio de publicación de posts. Para ello, el primer recurso que se utilizará será una herramienta de prototipado rápido llamada Balsamiq Mockups, la cual se detallará en el siguiente apartado.
+    p.mb-0(data-aos="fade-left") Con esta perspectiva, y abordando de manera sucinta estos conceptos, se propone como caso de estudio la estructura y maquetación de la interfaz de un servicio de publicación de #[em posts]. Para ello, el primer recurso que se utilizará será una herramienta de prototipado rápido llamada Balsamiq Mockups, la cual se detallará en el siguiente apartado.
 
 </template>
 

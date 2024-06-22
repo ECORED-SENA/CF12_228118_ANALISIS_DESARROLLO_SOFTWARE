@@ -115,8 +115,8 @@
             .col-lg-11
               .row
                 .col-lg-7.mb-4.mb-lg-0
-                  h4.mb-4.color-sistema-l Agregar rectángulo (área de contenido).
-                  p.mb-0 Haciendo uso de la herramienta ubicada en el panel de propiedades de la izquierda, se crear un rectángulo debajo del encabezado.
+                  h4.mb-4.color-sistema-l Agregar rectángulo (área de contenido)
+                  p.mb-0 Haciendo uso de la herramienta ubicada en el panel de propiedades de la izquierda, se creará un rectángulo debajo del encabezado.
 
                 .col-lg-5
                   figure
@@ -168,7 +168,7 @@
     .fondo-personalizado-7.mb-5
       .fondo-personalizado-7__contenido.py-5(data-aos="zoom-in-out")
         figure
-          img.mx-auto(src="@/assets/curso/temas/76.png",style="max-width: 1030px;",alt="Se presenta la página principal de la herramienta Canva y el menú desplegable al seleccionar el botón Crea un diseño ubicado en la esquina superior derecha.")
+          img.mx-auto(src="@/assets/curso/temas/76.svg",style="max-width: 1030px;",alt="Se presenta la página principal de la herramienta Canva y el menú desplegable al seleccionar el botón Crea un diseño ubicado en la esquina superior derecha.")
     
     p.mb-5(data-aos="fade-right") Canva, al igual que Adobe XD, permite diseñar interfaces para dispositivos móviles y ofrece un proceso similar. La plataforma sugiere comenzar con plantillas prediseñadas, lo que facilita el inicio de un proyecto.
 
@@ -178,7 +178,7 @@
     .fondo-personalizado-7.mb-5
       .fondo-personalizado-7__contenido.py-5(data-aos="fade-left")
         figure
-          img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 1030px;",alt="Imagen ilustrativa de las plantillas prediseñadas que la herramienta Canva pone a disposición de los usuarios.")
+          img.mx-auto(src="@/assets/curso/temas/77.svg",style="max-width: 1030px;",alt="Imagen ilustrativa de las plantillas prediseñadas que la herramienta Canva pone a disposición de los usuarios.")
     
     p.mb-5(data-aos="fade-right") Finalmente, cabe destacar que estas no son las únicas herramientas disponibles en el mercado. Se han mencionado las anteriores debido a su popularidad, aceptación en el mercado, y la amplia disponibilidad de documentación y videotutoriales en diversas plataformas en línea.
 
@@ -238,7 +238,7 @@
         figure.mb-4
           img.mx-auto(src="@/assets/curso/temas/81.png",style="max-width: 393px;")
       div.ms-md-5(titulo="El movimiento otorga significado")
-        p.ps-md-2.mb-3.pt-md-0.pt-2 En aplicaciones web o móviles, las animaciones captan la atención de los usuarios pero deben evitar interrumpir la experiencia del usuario. Es deseable que las animaciones estén relacionadas con la esencia del sitio o aplicación, como el efecto de presionar un botón o la experiencia de desplazar un elemento. Google considera que el movimiento subraya el papel del usuario como actor principal en la interacción con la máquina, permitiendo que las acciones del usuario modifiquen el diseño o la disposición de los elementos sin interferir con la experiencia de usuario.
+        p.ps-md-2.mb-3.pt-md-0.pt-2 En aplicaciones web o móviles, las animaciones captan la atención de los usuarios, pero deben evitar interrumpir la experiencia del usuario. Es deseable que las animaciones estén relacionadas con la esencia del sitio o aplicación, como el efecto de presionar un botón o la experiencia de desplazar un elemento. Google considera que el movimiento subraya el papel del usuario como actor principal en la interacción con la máquina, permitiendo que las acciones del usuario modifiquen el diseño o la disposición de los elementos sin interferir con la experiencia de usuario.
     
     p.mb-0(data-aos="flip-up") En conclusión, Material Design es una propuesta de diseño novedosa y que se está incorporando en las nuevas versiones de Android. Los principios del Material Design van guiados a mejorar la experiencia de usuario teniendo en cuenta las últimas tecnologías.
 
