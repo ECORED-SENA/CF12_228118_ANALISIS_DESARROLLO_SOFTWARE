@@ -88,7 +88,7 @@ export default {
           {
             numero: '8.2',
             titulo: '<em>API Firebase</em>',
-            hash: 't_8_1',
+            hash: 't_8_2',
           },
           {
             numero: '8.3',

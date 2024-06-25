@@ -180,7 +180,7 @@
           h4.color-acento-contenido Creación de una base de datos en #[em Firebase]
           p.mb-0.text-white El proceso básico para crear una base de datos en #[em Firebase], se presenta en el siguiente Anexo. 
         .col-md-auto.text-center(style="place-self:center;")
-          a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_Creacion_de_una_base_de_datos_en_Firebase.docx')" target="_blank")
+          a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_Creacion_de_una_base_de_datos_en_Firebase.pdf')" target="_blank")
             span(style="color:initial;") Descargar
             i.fas.fa-file-download(style="color:initial;")
 
