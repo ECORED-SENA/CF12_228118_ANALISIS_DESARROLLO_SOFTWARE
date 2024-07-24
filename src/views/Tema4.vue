@@ -24,7 +24,7 @@
         
         .row.mb-5
           .col-lg-7
-            p.mb-4(data-aos="fade-up") Existen varias formas de instalar el #[em framework]. En este caso, se utilizará la descarga de los archivos, disponible en el enlace proporcionado en la sección de material de apoyo con el nombre #[b "Descarga de archivos Materialize"].
+            p.mb-4(data-aos="fade-up") Existen varias formas de instalar el #[em framework]. En este caso, se utilizará la descarga de los archivos, disponible en el enlace proporcionado en la sección de material de apoyo, con el nombre #[b "Descarga de archivos Materialize"].
             .fondo-color-sistema-o.p-4.borde-13(data-aos="fade-down")
               .row.align-items-center
                 .col-md-auto 
@@ -117,7 +117,7 @@
 
         .row.mb-5.pt-5
           .col-lg-7.mb-4.mb-lg-0(data-aos="fade-up")
-            p.mb-4 Para esta maquetación, es necesario dimensionar el #[em grid] o rejilla, lo cual ayuda a mantener el contenido de manera organizada y estructurada. Para lograrlo, se utiliza la clase #[em "container"], que centra el contenido de la página y ocupa aproximadamente el 70% del ancho de la ventana, lo que ayuda a centrar y contener el contenido de la página.
+            p.mb-4 Para esta maquetación, es necesario dimensionar el #[em grid] o rejilla, lo cual ayuda a mantener el contenido de manera organizada y estructurada. Para lograrlo, se utiliza la clase #[em "container"], que centra el contenido de la página y ocupa aproximadamente el 70% del ancho de la ventana, lo que ayuda a centrar y organizar el contenido de la página.
             .fondo-color-sistema-o.p-4.borde-13
               .row.align-items-center
                 .col-md-auto 

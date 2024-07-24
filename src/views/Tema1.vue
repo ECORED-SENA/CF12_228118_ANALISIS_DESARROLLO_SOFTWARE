@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 1
-      h1 Sistema de navegación en plataformas #[em software]
+      h1 Sistema de navegación en plataformas de #[em software]
     
     .fondo-personalizado-2.pos-1.mb-5
       .fondo-personalizado-2__contenido.pb-5
@@ -59,7 +59,7 @@
                   .row.align-items-center
                     .col-lg-7.mb-4.mb-lg-0
                       h4.mb-5 #[span.color-sistema-l A.] En busca de la información
-                      p.mb-0 Saber cómo buscan las personas información online presenta problemas y desafíos. La disponibilidad inmediata de los recursos en la red permite a las personas cambiar el rumbo de su búsqueda sobre la marcha. Existe una estrategia de búsqueda, en la cual a medida que se localiza nueva información, el curso de la investigación de la persona puede variar. Se suele buscar con agilidad, y es frecuente que los usuarios puedan vagar de una página a otra con el peligro de perderse en la profundidad de una jerarquía web. La manera de buscar y la frecuencia con la que el usuario puede perderse en este proceso son aspectos que deben ser tenidos en cuenta a la hora de diseñar los sistemas de navegación web (Calvo, 2015).
+                      p.mb-0 Saber cómo buscan las personas información #[i online] presenta problemas y desafíos. La disponibilidad inmediata de los recursos en la red permite a las personas cambiar el rumbo de su búsqueda sobre la marcha. Existe una estrategia de búsqueda, en la cual a medida que se localiza nueva información, el curso de la investigación de la persona puede variar. Se suele buscar con agilidad, y es frecuente que los usuarios puedan vagar de una página a otra con el peligro de perderse en la profundidad de una jerarquía web. La manera de buscar y la frecuencia con la que el usuario puede perderse en este proceso son aspectos que deben ser tenidos en cuenta a la hora de diseñar los sistemas de navegación web (Calvo, 2015).
 
                     .col-lg-5
                       figure

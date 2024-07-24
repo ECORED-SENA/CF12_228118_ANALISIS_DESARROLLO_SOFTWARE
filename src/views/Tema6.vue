@@ -28,7 +28,7 @@
         .fondo-personalizado-6.p-4.borde-11
           .row.align-items-center
             .col-lg-9
-              p.mb-0.text-white Adobe XD es la primera herramienta creada por la compañía Adobe, que fue específicamente diseñada para prototipar la experiencia de usuario (UX) e interfaz de usuario (UI). Esta herramienta ha sido el resultado de la empresa Adobe al trabajar con diseñadores de UX, usan sus herramientas de diseño gráfico como Ilustrator, Photoshop y otros, de tal manera que un solo producto agrupa características que tiene como objetivo hacer que los diseñadores de interfaces sean más productivos.
+              p.mb-0.text-white Adobe XD es la primera herramienta creada por la compañía Adobe, que fue específicamente diseñada para prototipar la experiencia de usuario (UX) e interfaz de usuario (UI). Esta herramienta ha sido el resultado de la empresa Adobe al trabajar con diseñadores de UX, usan sus herramientas de diseño gráfico como Illustrator, Photoshop y otros, de tal manera que un solo producto agrupa características que tiene como objetivo hacer que los diseñadores de interfaces sean más productivos.
             .col-lg-3.order-first.order-lg-last
               .d-flex
                 .fondo-color-acento-contenido.p-3.borde-11.d-inline-block.mx-auto.mb-4.mb-lg-0
@@ -106,7 +106,7 @@
               .row
                 .col-lg-7.mb-4.mb-lg-0
                   h4.mb-4.color-sistema-l Configurar encabezado
-                  p.mb-0 En el explorador de archivos, navegue hasta la imagen del encabezado y haga clic en Importar. Puede emplear los controles que marcan el rededor de la imagen para residenciar su tamaño ajustándolo al de la pantalla.
+                  p.mb-0 En el explorador de archivos, navegue hasta la imagen del encabezado y haga clic en Importar. Puede emplear los controles alrededor de la imagen para cambiar su tamaño, ajustándolo al de la pantalla. 
 
                 .col-lg-5
                   figure
@@ -178,7 +178,7 @@
     .fondo-personalizado-7.mb-5
       .fondo-personalizado-7__contenido.py-5(data-aos="fade-left")
         figure
-          img.mx-auto(src="@/assets/curso/temas/77.svg",style="max-width: 1030px;",alt="Imagen ilustrativa de las plantillas prediseñadas que la herramienta Canva pone a disposición de los usuarios.")
+          img.img-a.img-t(src="@/assets/curso/temas/77.png", alt="Imagen ilustrativa de las plantillas prediseñadas que la herramienta Canva pone a disposición de los usuarios.")
     
     p.mb-5(data-aos="fade-right") Finalmente, cabe destacar que estas no son las únicas herramientas disponibles en el mercado. Se han mencionado las anteriores debido a su popularidad, aceptación en el mercado, y la amplia disponibilidad de documentación y videotutoriales en diversas plataformas en línea.
 

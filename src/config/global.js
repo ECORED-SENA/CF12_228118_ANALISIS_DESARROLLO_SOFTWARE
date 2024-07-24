@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Sistema de navegación en plataformas <em>software</em>',
+        titulo: 'Sistema de navegación en plataformas de <em>software</em>',
         desarrolloContenidos: true,
       },
       {

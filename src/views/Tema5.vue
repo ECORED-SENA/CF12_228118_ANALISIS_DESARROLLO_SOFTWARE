@@ -23,7 +23,7 @@
             figure
               img.mx-auto(src="@/assets/curso/temas/20.svg",style="max-width: 100px;")
           .col
-            p.mb-0 Se deben responder las siguientes preguntas: #[span.color-sistema-l ¿Qué es lo prioritario?], #[span.color-sistema-l ¿qué es esencial?] y #[span.color-sistema-l ¿para cuándo se requiere?] Esto se especifica de alguna manera y luego se revisa o válida para garantizar que la comprensión del problema por parte del analista coincida con la de los demás participantes.
+            p.mb-0 Se deben responder las siguientes preguntas: #[span.color-sistema-l ¿Qué es lo prioritario?], #[span.color-sistema-l ¿qué es esencial?], y #[span.color-sistema-l ¿para cuándo se requiere?] Esto se especifica de alguna manera y luego se revisa o válida para garantizar que la comprensión del problema por parte del analista coincida con la de los demás participantes.
         
         .row.justify-content-center.mb-5(data-aos="zoom-in-out")
           .col-lg-6.col-md-10
@@ -160,7 +160,7 @@
               img.mx-auto(src="@/assets/curso/temas/61.svg",style="max-width: 66px;")
           br
           h3.mb-4.fondo-color-acento-contenido.d-inline-block.px-2.pt-1 Plantilla de casos de uso
-          p.mb-3.text-white Algunos de los requerimientos especificados en el documento de especificación de requisitos pueden necesitar un nivel de detalle técnico superior, especialmente al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares donde intervienen reglas de negocio.
+          p.mb-3.text-white Algunos de los requerimientos descritos en el documento de especificación de requisitos pueden necesitar un nivel de detalle técnico superior, especialmente al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares donde intervienen reglas de negocio.
     
     p.mb-0(data-aos="zoom-in-out") Como se puede identificar, los requerimientos de una aplicación móvil suelen estar cubiertos por técnicas como la elaboración de historias de usuario. No obstante, cuando la aplicación móvil forma parte de un ecosistema tecnológico más complejo, el proceso requiere de algún artefacto que facilite la identificación y validación de los requisitos.
 

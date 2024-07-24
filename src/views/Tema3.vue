@@ -9,7 +9,7 @@
 
     .row.align-items-end.mb-5
       .col-lg-7
-        p.mb-0(data-aos="fade-up") La estructura de la interfaz de la aplicación está diseñada para ofrecer una experiencia de usuario óptima, combinando funcionalidad con estética visual. Cada elemento está pensado para garantizar una navegación intuitiva y accesible, desde los wireframes iniciales hasta los mockups finales que definen el aspecto y la operatividad del sistema.
+        p.mb-0(data-aos="fade-up") La estructura de la interfaz de la aplicación está diseñada para ofrecer una experiencia de usuario óptima, combinando funcionalidad con estética visual. Cada elemento está pensado para garantizar una navegación intuitiva y accesible, desde los #[i wireframes] iniciales hasta los #[i mockups] finales que definen el aspecto y la operatividad del sistema.
 
         .cont-titulo-decorativo.p-2.mt-5
           .row
@@ -97,7 +97,7 @@
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/29.svg",style="max-width: 73px;")
         .col 
-          p.mb-0 Esta herramienta permite generar de manera estructural las vistas de la aplicación. Es decir, se describe en palabras cuántas vistas son necesarias y cuántos objetos de interacción se requieren. En decir, proporciona una propuesta de la estructura de la interfaz de la aplicación. Esta actividad se suele realizar tradicionalmente con lápiz y papel. Sin embargo, con Balsamiq, esta tarea se puede llevar a cabo sin dificultad, como se presenta a continuación:
+          p.mb-0 Esta herramienta permite generar de manera estructural las vistas de la aplicación. Es decir, se describe en palabras cuántas vistas son necesarias y cuántos objetos de interacción se requieren, proporcionando una respuesta de la estructura de la interfaz de la aplicación. Esta actividad se suele realizar tradicionalmente con lápiz y papel, sin embargo, con Balsamiq, esta tarea se puede llevar a cabo sin dificultad, como se presenta a continuación:
 
     .fondo-personalizado-4.pos-1.mb-5
       .fondo-personalizado-4__contenido.pb-4

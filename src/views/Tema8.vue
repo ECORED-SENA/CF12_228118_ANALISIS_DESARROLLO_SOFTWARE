@@ -52,7 +52,7 @@
         p Consiste en la distribución de una versión gratuita y limitada en sus funciones respecto de la aplicación que es de pago. Con esta licencia, se le permite al usuario su uso por un tiempo y funciones delimitadas, pero cuando el tiempo finaliza, el usuario deberá pagar o desinstalar el programa.
       .tarjeta.fondo-color-sistema-m.p-3.borde-9(x="7%" y="55%" numero="+")
         .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") #[em Freeware]
-        p Este tipo de licencia permite la instalación y uso gratuito de la aplicación y todos sus componentes sin que requiera alguna suscripción; hacer el registro es opcional pero no tiene costo o pago, sin embargo, el código fuente se mantiene limitado.
+        p Este tipo de licencia permite la instalación y uso gratuito de la aplicación y todos sus componentes sin que requiera alguna suscripción; hacer el registro es opcional, pero no tiene costo o pago, sin embargo, el código fuente se mantiene limitado.
       .tarjeta.fondo-color-sistema-m.p-3.borde-9(x="43%" y="88%" numero="+")
         .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") #[em OEM (Original Equipment Manufacturer)]
         p Esta licencia tiene la condición de que el programa debe instalarse en un equipo nuevo, por lo que generalmente aplica a los sistemas operativos.
@@ -199,7 +199,7 @@
 
     .row.align-items-center.mb-4
       .col-lg-9(data-aos="fade-right")
-        p.mb-0 Durante el desarrollo de proyectos que emplean microservicios, las pruebas de #[em API] son esenciales para garantizar la ejecución, funcionalidad, confiabilidad y seguridad de la aplicación, tanto en la fase de desarrollo como en la de consumo de la #[em API]. A continuación, se presentan varias herramientas de libre distribución que facilitan el proceso de prueba y diseño de #[em APIS] publicadas a través de los diferentes protocolos web.
+        p.mb-0 Durante el desarrollo de proyectos que emplean microservicios, las pruebas de #[em API] son esenciales para garantizar la ejecución, funcionalidad, confiabilidad y seguridad de la aplicación, tanto en la fase de desarrollo como en la de consumo de la #[em API]. A continuación, se presentan varias herramientas de libre distribución que facilitan el proceso de prueba y diseño de #[em APIs] publicadas a través de los diferentes protocolos web.
       .col-lg-3(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/112.svg",style="max-width: 292px;")
